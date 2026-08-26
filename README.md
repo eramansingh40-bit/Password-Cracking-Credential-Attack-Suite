@@ -373,7 +373,7 @@ pip install pytest
 
 ---
 
-# ▶️ Running the Project
+#  Running the Project
 
 Run:
 
