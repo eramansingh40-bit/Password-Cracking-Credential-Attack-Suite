@@ -1,1 +1,41 @@
+cat reports/audit_report.txt
+==================================================
+PASSWORD SECURITY AUDIT REPORT
+==================================================
+
+Password Tested: admin
+
+PASSWORD STRENGTH
+------------------------------
+Length: 5
+Lowercase: True
+Uppercase: False
+Numbers: False
+Special Characters: False
+Estimated Entropy: 23.5 bits
+Strength: WEAK
+
+DICTIONARY SIMULATION
+------------------------------
+Result: PASSWORD FOUND
+Candidate: admin
+Attempts: 22
+
+BRUTE-FORCE SIMULATION
+------------------------------
+Result: PASSWORD NOT FOUND
+Attempts: 18278
+
+OVERALL RISK
+------------------------------
+Risk Level: HIGH
+
+RECOMMENDATIONS
+------------------------------
+1. Use long and unique passwords.
+2. Avoid common dictionary words.
+3. Use multi-factor authentication.
+4. Implement login rate limiting.
+5. Never reuse passwords.
+6. Use secure password hashing mechanisms.
 
